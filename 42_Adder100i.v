@@ -91,4 +91,18 @@ module top_module(
     //             end
     //     end
 
+    //基于 M-HHH 的思路作出的二次优化
+    // assign cout[0] = a[0] & b[0] | a[0] & cin | b[0] & cin;
+    // assign sum[0]  = a[0] ^ b[0] ^ cin;
+    
+    // integer i;
+    
+    // always @ (*) begin
+    //     for (i=1; i<100; i++) begin
+    //             cout[i] = a[i] & b[i] | a[i] & cout[i-1] | b[i] & cout[i-1];
+    //             sum[i]  = a[i] ^ b[i] ^ cout[i-1];
+    //     end
+    // end
+
+
 endmodule
