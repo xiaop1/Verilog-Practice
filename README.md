@@ -4,7 +4,7 @@ There are some [HDLBits website][1] practices. And all of them have been verifie
 
 2020.4.22 - 6:09:54: All of the problems are **done**. 
 
-And there is my [blog][1].
+And there is my [blog][2].
 
 At the end, life is fantastic bro.
 
