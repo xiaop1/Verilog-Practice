@@ -16,35 +16,7 @@ endmodule
 module add1 ( input a, input b, input cin,   output sum, output cout );
 
 // Full adder module here
-    always @(*) begin
-        if(!cin) begin
-            if(a == 0 && b == 0) begin
-                sum = 0;
-                cout = 0;
-            end
-            else if((a == 0 && b == 1) || (a == 1 && b == 0)) begin
-                sum = 1;
-                cout = 0;
-            end
-            else begin
-                sum = 0;
-                cout = 1;
-            end
-        end
-        else begin
-            if(a == 0 && b == 0) begin
-                sum = 1;
-                cout = 0;
-            end
-            else if((a == 0 && b == 1) || (a == 1 && b == 0)) begin
-                sum = 0;
-                cout = 1;
-            end
-            else begin
-                sum = 1;
-                cout = 1;
-            end
-        end
-    end
+   assign sum = a^b^cin;
+   assign cout = a&b|a&cin|b&cin;
 
 endmodule
