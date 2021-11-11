@@ -16,7 +16,6 @@ endmodule
 module add1 ( input a, input b, input cin,   output sum, output cout );
 
 // Full adder module here
-   assign sum = a^b^cin;
-   assign cout = a&b|a&cin|b&cin;
+    assign {cout, sum} = a + b + cin;
 
 endmodule
