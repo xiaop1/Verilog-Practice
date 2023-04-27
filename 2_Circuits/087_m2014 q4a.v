@@ -4,8 +4,8 @@ module top_module (
     output q);
     
     always @(*) begin
-        if(ena) begin
-            q = d;
+        if (ena) begin
+            q <= d;
         end
     end
 
