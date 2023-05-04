@@ -1,6 +1,8 @@
 # Verilog-Practice
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=xiaopi-verilog-practice) <img alt="GitHub stars" src="https://img.shields.io/github/stars/xiaop1/Verilog-Practice" />
+[![HitCount](https://hits.dwyl.com/xiaop1/Verilog-Practice.svg?style=flat-square)](http://hits.dwyl.com/xiaop1/Verilog-Practice) <img alt="GitHub stars" src="https://img.shields.io/github/stars/xiaop1/Verilog-Practice" />
+
+<!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=xiaopi-verilog-practice) -->
 
 There are some [HDLBits website][1] practices. And all of them have been verified. I really hope that my practices can help you to realize how Verilog works.
 
